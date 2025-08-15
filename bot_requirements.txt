@@ -1,0 +1,25 @@
+# Alya Telegram Bot v2.0 Requirements
+# Enhanced security and anti-spam features
+
+# Core Telegram bot library with job queue support
+python-telegram-bot[job-queue]==20.8
+
+# HTTP requests for AI API communication
+requests==2.32.4
+
+# Additional dependencies installed automatically:
+# - httpx~=0.26.0 (HTTP client for telegram library)
+# - apscheduler==3.10.4 (Job scheduling for cleanup tasks)
+# - pytz==2025.2 (Timezone support)
+# - tzlocal==5.3.1 (Local timezone detection)
+# - anyio (Async I/O support)
+# - h11 (HTTP/1.1 implementation)
+# - httpcore (HTTP core functionality)
+# - sniffio (Async library detection)
+# - typing-extensions (Type hints support)
+# - six (Python 2/3 compatibility)
+
+# Standard library modules used (no installation needed):
+# - os, json, logging, datetime, random
+# - re, hashlib, secrets, asyncio
+# - dataclasses, typing, collections
